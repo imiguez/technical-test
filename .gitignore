@@ -37,12 +37,6 @@ backend/*.sublime-workspace
 !/backend/.vscode/launch.json
 !/backend/.vscode/extensions.json
 
-# dotenv environment variable files
-/backend/.env
-/backend/.env.development.local
-/backend/.env.test.local
-/backend/.env.production.local
-/backend/.env.local
 
 # temp directory
 /backend.temp
@@ -78,10 +72,6 @@ frontend/build
 
 # misc
 frontend/.DS_Store
-frontend/.env.local
-frontend/.env.development.local
-frontend/.env.test.local
-frontend/.env.production.local
 
 frontend/npm-debug.log*
 frontend/yarn-debug.log*

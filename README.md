@@ -30,7 +30,8 @@ npm install
 
 ### Run projects:
 ```
-cd backend
+cd ../backend
+npm run build
 npm run start:prod
 ```
 ```
