@@ -1,0 +1,30 @@
+.list-container {
+    width: 80%;
+    min-height: 50vh;
+    margin: 10vh 10%;
+    border: 1px solid rgb(97, 97, 97);
+}
+
+.list {
+    padding: 0;
+    margin: 0;
+}
+  
+
+.list .row-container:first-of-type { border-top: 0 }
+.list .row-container {
+    padding: 20px;
+    border-top: 1px solid rgb(97, 97, 97);
+    list-style: none;
+}
+
+
+@media only screen and (min-width: 1000px) {
+
+    .list-container {
+        width: 50%;
+        margin: 10vh 25%;
+        border-radius: 10px;
+    }
+    
+}
